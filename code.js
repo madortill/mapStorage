@@ -18,7 +18,7 @@ window.addEventListener("load", () => {
         document.querySelector(`.animation-rocket`).addEventListener("animationend", () => {
             document.querySelector(`.start-button`).style.display = "block";
         })
-    },5000);
+    },2500);
     document.querySelector(`.start-button`).addEventListener("click", questionPage);
 });
 
@@ -29,7 +29,11 @@ let odot = () => {
     document.querySelector(`.div-body`).style.overflow = "hidden";
     document.querySelector(`.odot-logo`).style.display = "none";  
     document.querySelector(`#back-button-odot`).addEventListener("click", () => {
-        document.querySelector(`.${strLocation}`).style.display = "block";
+        if (strLocation === "div-finish") {
+            document.querySelector(`.div-finish`).style.display = "flex";
+        } else {
+            document.querySelector(`.${strLocation}`).style.display = "block";
+        }
         document.querySelector(`.div-odot`).style.display = "none";  
         document.querySelector(`.odot-logo`).style.display = "block";  
         document.querySelector(`.div-body`).style.overflow = "scroll";
