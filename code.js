@@ -18,7 +18,7 @@ window.addEventListener("load", () => {
         document.querySelector(`.animation-rocket`).addEventListener("animationend", () => {
             document.querySelector(`.start-button`).style.display = "block";
         })
-    },2500);
+    },3000);
     document.querySelector(`.start-button`).addEventListener("click", questionPage);
 });
 
