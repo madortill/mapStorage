@@ -140,7 +140,7 @@ body, html {
 
 .animation-rocket {
     animation-name: move;
-    animation-duration: 18s;
+    animation-duration: 12s;
     animation-fill-mode: forwards;
     display: flex;
     flex-direction: column;
