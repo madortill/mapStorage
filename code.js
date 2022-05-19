@@ -114,7 +114,7 @@ const questionsEnd = () => {
     strLocation = "div-finish";
     if (nMultipleCorrectAnswers >= 7) {
         document.querySelector(`.h2-finish`).innerHTML = "הצלחתם!";
-        document.querySelector(`.p-finish`).innerHTML =  `כל הכבוד! <br> עניתם על על ${nMultipleCorrectAnswers} תשובות נכונות! <br> <br> הקוד הוא ${CODE} `;
+        document.querySelector(`.p-finish`).innerHTML =  `כל הכבוד! <br> עניתם על על ${nMultipleCorrectAnswers} תשובות נכונות! <br> הקוד הוא ${CODE} `;
 
     } else {
         document.querySelector(`.h2-finish`).innerHTML = "הפסדתם";
