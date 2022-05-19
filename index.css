@@ -135,12 +135,12 @@ body, html {
     position: absolute;
     right: 1vh;
     bottom: 12vh;
-    width: 30vw;
+    width: 29vw;
 }
 
 .animation-rocket {
     animation-name: move;
-    animation-duration: 12s;
+    animation-duration: 18s;
     animation-fill-mode: forwards;
     display: flex;
     flex-direction: column;
@@ -172,9 +172,9 @@ body, html {
 }
 
 .p-mars {
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
-    margin: 2.2em;
+    margin: 3em;
 }
 
 .start-button {
@@ -209,8 +209,9 @@ body, html {
 /* question  */
 .multipleQuestion {
     font-family: Karantina;
-    font-size: 5em;
+    font-size: 4em;
     margin: 0.1em;
+    text-align: center;
 }
 
 /* Answers Container */
@@ -226,7 +227,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position-y: center;
-    width: 82vw;
+    width: 70vw;
     height: 7vh;
     /* line-height: 6.5vh; */
     font-size: 2em;
@@ -258,12 +259,13 @@ body, html {
     flex-direction: column;
     width: 100%;
     height: fit-content;
-    margin: 27em;
+    margin-right: 5em;
+    margin-left: 5em;
 }
 
 .try-again-button {
     position: absolute;
-    bottom: 10vh;
+    bottom: 2vh;
     width: 33vw;
     /* left: 3vw; */
     display: none;
@@ -277,6 +279,6 @@ body, html {
 }
 
 .h2-finish {
-    font-size: 3em;
+    font-size: 2.7em;
     margin: 0;
 }
