@@ -133,9 +133,9 @@ body, html {
 
 .back-button {
     position: absolute;
+    right: 1vh;
     bottom: 12vh;
-    width: 18vw;
-    right: 2vh;
+    width: 30vw;
 }
 
 .animation-rocket {
