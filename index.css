@@ -15,7 +15,6 @@
 
 * {
     font-family: Assistant;
-    /* overflow: hidden !important; */
 }
 
 body, html {
@@ -115,6 +114,7 @@ body, html {
 .div-p-odot {
     font-family: Assistant;
     font-size: 1.2em;
+    font-weight: bold;
 }
 
 .till-logo {
@@ -140,7 +140,7 @@ body, html {
 
 .animation-rocket {
     animation-name: move;
-    animation-duration: 18s;
+    animation-duration: 12s;
     animation-fill-mode: forwards;
     display: flex;
     flex-direction: column;
@@ -157,9 +157,7 @@ body, html {
     height: 42vh;
     visibility: hidden;
     display: flex;
-    /* flex-direction: row; */
     align-items: center;
-    /* text-align: center; */
     justify-content: center;
 }
     
@@ -175,6 +173,7 @@ body, html {
     font-size: 1.8em;
     text-align: center;
     margin: 3em;
+    font-weight: bold;
 }
 
 .start-button {
@@ -195,7 +194,6 @@ body, html {
 .multipleQuestionContainer {
     width: 80%;
     height: fit-content;
-    /* border: blue solid; */
     position: absolute;
     top: 10vh;
     left: 10vw;
@@ -267,7 +265,6 @@ body, html {
     position: absolute;
     bottom: 2vh;
     width: 33vw;
-    /* left: 3vw; */
     display: none;
 }
 
@@ -276,6 +273,7 @@ body, html {
     margin-left: 2.3em;
     font-size: 1.8em;
     text-align: center;
+    font-weight: bold;
 }
 
 .h2-finish {
